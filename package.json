@@ -1,26 +1,31 @@
 {
-  "name": "express-typescript-starter",
-  "version": "1.0.0",
-  "description": "Starter project for express with typescript",
-  "main": "index.js",
-  "scripts": {
-    "start": "node dist/server.js",
-    "dev": "nodemon --exec ts-node src/server.ts",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/cors": "^2.8.14",
-    "@types/express": "^4.17.17",
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-validator": "^7.0.1"
-  }
+   "name": "express-typescript-starter",
+   "version": "1.0.0",
+   "description": "Starter project for express with typescript",
+   "main": "index.js",
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "dev": "nodemon --exec ts-node src/server.ts",
+      "build": "tsc",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/cors": "^2.8.14",
+      "@types/express": "^4.17.17",
+      "@types/node": "^16.11.10",
+      "nodemon": "^3.0.1",
+      "ts-node": "^10.9.1",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "express-validator": "^7.0.1",
+      "mysql2": "^3.9.8",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.20"
+   }
 }
