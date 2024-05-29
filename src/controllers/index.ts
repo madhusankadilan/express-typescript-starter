@@ -1,5 +1,3 @@
-import { BooksController } from "./BooksController";
-import { AuthorsController } from "./AuthorsController";
+import { TestController } from "./TestController";
 
-export const booksController = new BooksController();
-export const authorsController = new AuthorsController();
+export const testController = new TestController();
